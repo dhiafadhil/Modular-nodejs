@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0798402-5d44-444d-89ac-0ffe51c87283" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/qqbacarat-service.git/HEAD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qqbacarat-service.git/config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qqbacarat-service.git/description" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qqbacarat-service.git/hooks/applypatch-msg.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qqbacarat-service.git/hooks/commit-msg.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qqbacarat-service.git/hooks/fsmonitor-watchman.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qqbacarat-service.git/hooks/post-update.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qqbacarat-service.git/hooks/pre-applypatch.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qqbacarat-service.git/hooks/pre-commit.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qqbacarat-service.git/hooks/pre-push.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qqbacarat-service.git/hooks/pre-rebase.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qqbacarat-service.git/hooks/pre-receive.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qqbacarat-service.git/hooks/prepare-commit-msg.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qqbacarat-service.git/hooks/update.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qqbacarat-service.git/info/exclude" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e0798402-5d44-444d-89ac-0ffe51c87283" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -307,7 +290,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88439000" />
+    <option name="totallyTimeSpent" value="88859000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

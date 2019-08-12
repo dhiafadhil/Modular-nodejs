@@ -258,9 +258,9 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Node.js.redis" />
       <item itemvalue="Docker.Dokcer Local" />
       <item itemvalue="Docker.Dokcer Tesla" />
+      <item itemvalue="Node.js.redis" />
       <item itemvalue="npm.start" />
     </list>
     <recent_temporary>

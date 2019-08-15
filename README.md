@@ -7,6 +7,7 @@
 # I use a docker file to make it easier for developers to develop the system
 
 #First Step run npm install
+
 #"learning by doing :)"
 
 

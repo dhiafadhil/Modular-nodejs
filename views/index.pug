@@ -1,7 +1,7 @@
 doctype html
 html(lang='en')
     head
-        title Baccarat
+        title 
         meta(charset='utf-8')
         meta(name='viewport', content='width=device-width, initial-scale=1')
         link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css')
@@ -9,43 +9,12 @@ html(lang='en')
         script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js')
     body
         .container
-            h2 Baccarat Monitor
-            h2#time
-            table.table
-                thead
-                    tr
-                        th.text-center Player
-                        th.text-center  Banker
-                        th.text-center Round
-                        th.text-center Result Win
-                        th.text-center Shuffle
-                tbody
-                    tr
-                        td.text-center#cardPlayer
-                        td.text-center#cardBanker
-                        td.text-center#round
-                        td.text-center#result
-                        td.text-center#shuffle
-        // ul#messages
+
         script(src='/socket.io/socket.io.js')
         script(src='https://code.jquery.com/jquery-1.11.1.js')
         script.
                 let socket = io();
                   socket.on('broadcast', function (data) {
-                    document.getElementById("time").innerHTML = data.roundtime;
-                    if (data.player.length === 2){
-                      document.getElementById("cardPlayer").innerHTML = data.player[0].symbol + data.player[1].symbol
-                    } else {
-                      document.getElementById("cardPlayer").innerHTML = data.player[0].symbol + data.player[1].symbol + data.player[2].symbol;
-                    }
-                    if (data.banker.length === 2){
-                      document.getElementById("cardBanker").innerHTML = data.banker[0].symbol + data.banker[1].symbol
-                    }else{
-                      document.getElementById("cardBanker").innerHTML = data.banker[0].symbol + data.banker[1].symbol + data.banker[2].symbol;
-                    }
-
-                    document.getElementById("shuffle").innerHTML = data.shuffle;
-                    document.getElementById("result").innerHTML = data.result
-                    document.getElementById("round").innerHTML = data.round
+                   //your function here
                 });
 

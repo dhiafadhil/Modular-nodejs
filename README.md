@@ -6,4 +6,7 @@
 # I hope this help you to learn nodeJs with modular
 # I use a docker file to make it easier for developers to develop the system
 
+#First Step run npm install
 #"learning by doing :)"
+
+
